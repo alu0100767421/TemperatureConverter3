@@ -4,11 +4,11 @@
 En esta ocasion la practica ha consistido en la realizacion de un conversor de temperaturas de grados Celcius a Farenheit y viceversa mediante JavaScript, asi como la utilización de node.js, mocha y chai,
 incluyendo pruebas de cubrimiento con Blanket e integrando Karma y Travis.
 
-----------
  
 #Página y repositorio personal:#
-     http://javierpestanoron.github.io/
-     https://github.com/JavierPestanoRon
+---------------------------------
+http://javierpestanoron.github.io/
+https://github.com/JavierPestanoRon
 
 -----------
 

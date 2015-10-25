@@ -19,10 +19,11 @@ module.exports = function(config) {
     },
 
     // list of files / patterns to load in the browser
+     // list of files / patterns to load in the browser
     files: [
-      'testk.html',
+      'test/index.html',
       '*.js',
-      'vendor/*.js'
+      'test/*.js'
     ],
 
 

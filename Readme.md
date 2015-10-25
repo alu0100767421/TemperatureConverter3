@@ -5,9 +5,10 @@ En esta ocasion la practica ha consistido en la realizacion de un conversor de t
 
 ----------
  
- ### Página y repositorio personal: 
+ # Página y repositorio personal: #
     - http://javierpestanoron.github.io/
     - https://github.com/JavierPestanoRon
+
 -----------
 
  - Repositorio de la práctica: https://github.com/JavierPestanoRon/TemperatureConverter3/tree/master

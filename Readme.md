@@ -7,8 +7,8 @@ incluyendo pruebas de cubrimiento con Blanket e integrando Karma y Travis.
 ----------
  
 #Página y repositorio personal:#
-    - http://javierpestanoron.github.io/
-    - https://github.com/JavierPestanoRon
+     http://javierpestanoron.github.io/
+     https://github.com/JavierPestanoRon
 
 -----------
 

@@ -12,5 +12,5 @@ En esta ocasion la practica ha consistido en la realizacion de un conversor de t
  - Test de la práctica: http://javierpestanoron.github.io/TemperatureConverter2/test/index.html
  
  
- - Test Travis: [![Build Status](https://travis-ci.org/JavierPestanoRon/TemperatureConverter2.svg)](https://travis-ci.org/JavierPestanoRon/TemperatureConverter2)
+ - Test Travis: [![Build Status](https://travis-ci.org/JavierPestanoRon/TemperatureConverter3.svg)](https://travis-ci.org/JavierPestanoRon/TemperatureConverter3)
 

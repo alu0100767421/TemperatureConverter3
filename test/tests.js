@@ -7,6 +7,14 @@ describe("Test Funcionales", function(){
         temp.set_valor(32);
         temp.set_tipo("F");
         var result =temp.to_c();
+        
+        var espia = sinon.spy();
+        espia(temp.get_valor());
+
+        expect(espia.called).to.be.true;
+        expect(espia.calledOnce).to.be.true;
+         expect(espia.firstCall.calledWith(0)).to.be.true;
+        expect(espia.firstCall.calledWith(sinon.match.number)).to.be.true;
         expect(result).to.equal(0);
     });
     

@@ -34,17 +34,18 @@ Como parte de una nueva versión hemos de desplegar la aplicacion web en los ser
 --------
 
 En primer lugar deberemos iniciar sesión en la web del [`iaas.ull.es`](iaas.ull.es) con nuestra credencial de la ull, de esta forma accederemos a la interfaz grafica de administración de nuestra maquina virtual sobre la que desplegaremos la aplicación.
-
 ![Inicio de sesión](https://github.com/JavierPestanoRon/TemperatureConverter3/blob/master/images_md/Captura1.PNG)
 
 ----------
 
 A continuación comenzamos modificando el valor del `VNC`, marcandolo como `noVNC`en el panel de control.
-
 ![Panel de Control](https://github.com/JavierPestanoRon/TemperatureConverter3/blob/master/images_md/Captura3.PNG)
 
 ----------
 
+Una vez abierta la consola se nos pedirá que iniciemos sesión e introduzcamos una nueva clave.
+*`NOTA: Si apagamos la maquina virtual, perderemos todo el trabajo realizado, por lo que hay que mantenerla encendida`*
+![Inicio de sesión](https://github.com/JavierPestanoRon/TemperatureConverter3/blob/master/images_md/Captura4.PNG)
 
 
 

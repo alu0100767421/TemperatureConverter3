@@ -52,13 +52,17 @@ Una vez abierta la consola se nos pedirá que iniciemos sesión e introduzcamos 
 
 -----------
 Una vez logueados realizamos las instalaciones pertienentes y obtenemos nuestra dirección ip.
-Seguidamente creamos una clave rsa para `GitHub` y de esta forma poder hacer commits a nuestro repositorio.
+Seguidamente creamos una clave RSA para `GitHub` y de esta forma poder hacer commits a nuestro repositorio.
+- `ssh-keygen -t rsa`
 - `sudo apt-get install npm`
 - `ifconfig`
 
 -----------
 
+Ahora que ya podemos acceder a nuestro repositorio y realizar commits, nos descargamos desde el servidor todo el contenidos de nuestro repositorio.
+- `git clone git@github.com:JavierPestanoRon/TemperatureConverter3.git`
 
+-----------
 
 
 

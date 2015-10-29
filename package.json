@@ -6,6 +6,9 @@
   "scripts": {
     "test": "node static-server"
   },
+  "scripts": {
+    "Karma": "./node_modules/karma/bin/karma start karma.conf.js --single-run"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JavierPestanoRon/TemperatureConverter2.git"

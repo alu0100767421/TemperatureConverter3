@@ -22,3 +22,48 @@ incluyendo pruebas de cubrimiento con Blanket e integrando Karma y Travis.
  
 ---------- 
  - Test Travis: [![Build Status](https://travis-ci.org/JavierPestanoRon/TemperatureConverter3.svg)](https://travis-ci.org/JavierPestanoRon/TemperatureConverter3)
+ 
+----------
+----------
+
+**Como Desplegar una Aplicación Web en [iaas.ull.es](iaas.ull.es)**
+---------------------------------------------------------------
+
+Como parte de una nueva versión hemos de desplegar la aplicacion web en los servidores de la ULL para alojar nuestro conversor de temperaturas con sus respectivas pruebas.
+
+--------
+
+En primer lugar deberemos iniciar sesión en la web del [`iaas.ull.es`](iaas.ull.es) con nuestra credencial de la ull, de esta forma accederemos a la interfaz grafica de administración de nuestra maquina virtual sobre la que desplegaremos la aplicación.
+
+![Inicio de sesión](https://github.com/JavierPestanoRon/TemperatureConverter3/blob/master/images_md/Captura1.PNG)
+
+----------
+
+A continuación comenzamos modificando el valor del `VNC`, marcandolo como `noVNC`en el panel de control.
+
+![Panel de Control](https://github.com/JavierPestanoRon/TemperatureConverter3/blob/master/images_md/Captura3.PNG)
+
+----------
+
+Una vez abierta la consola se nos pedirá que iniciemos sesión e introduzcamos una nueva clave.
+*`NOTA: Si apagamos la maquina virtual, perderemos todo el trabajo realizado, por lo que hay que mantenerla encendida`*
+
+![Inicio de sesión](https://github.com/JavierPestanoRon/TemperatureConverter3/blob/master/images_md/Captura4.PNG)
+
+-----------
+Una vez logueados realizamos las instalaciones pertienentes y obtenemos nuestra dirección ip.
+Seguidamente creamos una clave rsa para `GitHub` y de esta forma poder hacer commits a nuestro repositorio.
+- `sudo apt-get install npm`
+- `ifconfig`
+
+-----------
+
+
+
+
+
+
+
+ 
+
+

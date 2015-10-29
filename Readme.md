@@ -64,6 +64,11 @@ Ahora que ya podemos acceder a nuestro repositorio y realizar commits, nos desca
 
 -----------
 
+Arrancamos el static-server modificado correctamente con el siguiente comando:
+![Static-server](https://github.com/JavierPestanoRon/TemperatureConverter3/blob/master/images_md/captura3.png)
+- `sudo nodejs static-server.js`
+
+Y ya podremos entrar en nuestra aplicacion desde el explorador con el siguiente formato `IP:puerto/index.html`
 
 
 

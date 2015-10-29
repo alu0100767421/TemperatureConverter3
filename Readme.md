@@ -13,16 +13,21 @@ incluyendo pruebas de cubrimiento con Blanket e integrando Karma y Travis.
 
 -----------
 
+**Links de la práctica IAASS:**
+- Web de la práctica: http://10.6.128.10:8080/index.html
+
+------------
+
 **Links de la práctica:**
  - Web de la práctica: http://javierpestanoron.github.io/TemperatureConverter3/index.html
  - Repositorio de la práctica: https://github.com/JavierPestanoRon/TemperatureConverter3/tree/master
  - Test con cubrimiento Blanket: http://javierpestanoron.github.io/TemperatureConverter3/test/test_blanket.html
  - Test de la práctica: http://javierpestanoron.github.io/TemperatureConverter3/test/index.html
  - Test con Travis: https://travis-ci.org/JavierPestanoRon/TemperatureConverter3
- 
----------- 
+
+----------
  - Test Travis: [![Build Status](https://travis-ci.org/JavierPestanoRon/TemperatureConverter3.svg)](https://travis-ci.org/JavierPestanoRon/TemperatureConverter3)
- 
+
 ----------
 ----------
 

@@ -47,7 +47,18 @@ A continuación comenzamos modificando el valor del `VNC`, marcandolo como `noVN
 
 Una vez abierta la consola se nos pedirá que iniciemos sesión e introduzcamos una nueva clave.
 *`NOTA: Si apagamos la maquina virtual, perderemos todo el trabajo realizado, por lo que hay que mantenerla encendida`*
+
 ![Inicio de sesión](https://github.com/JavierPestanoRon/TemperatureConverter3/blob/master/images_md/Captura4.PNG)
+
+-----------
+Una vez logueados realizamos las instalaciones pertienentes y obtenemos nuestra dirección ip.
+Seguidamente creamos una clave rsa para `GitHub` y de esta forma poder hacer commits a nuestro repositorio.
+- `sudo apt-get install npm`
+- `ifconfig`
+
+-----------
+
+
 
 
 

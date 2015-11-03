@@ -6,9 +6,6 @@
   "scripts": {
     "test": "karma -start --browsers Chrome --single-run"
   },
-  "scripts": {
-    "Karma": "./node_modules/karma/bin/karma start karma.conf.js --single-run"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JavierPestanoRon/TemperatureConverter3.git"

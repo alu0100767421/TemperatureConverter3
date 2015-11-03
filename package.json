@@ -4,7 +4,7 @@
   "description": "conversor de temperatura",
   "main": "temperature.js",
   "scripts": {
-    "test": "./node_modules/karma/bin/karma start --single-run",
+    "karma": "./node_modules/karma/bin/karma start --single-run",
     "chai": "curl https://raw.githubusercontent.com/chaijs/chai/master/chai.js -o test/lib/chai.js"
   },
   "repository": {

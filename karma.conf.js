@@ -1,5 +1,5 @@
 // Karma configuration
-// Generated on Wed Oct 21 2015 17:17:51 GMT+0000 (UTC)
+// Generated on Thu Oct 22 2015 20:33:11 GMT+0000 (UTC)
 
 module.exports = function(config) {
   config.set({
@@ -11,31 +11,29 @@ module.exports = function(config) {
     // frameworks to use
     // available frameworks: https://npmjs.org/browse/keyword/karma-adapter
     frameworks: ['mocha', 'chai'],
-
+    
     client: {
           mocha: {
             ui: 'bdd'
           }
     },
+
     // list of files / patterns to load in the browser
     files: [
-        'test/index.html',
-        'webworker.js',
-        'test/*.js'
-      ],
+      'test/*.js',
+      'test/index.html'
+    ],
+
 
     // list of files to exclude
     exclude: [
-      'gulpfile.js',
-      'static-server.js'
     ],
 
 
     // preprocess matching files before serving them to the browser
     // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
     preprocessors: {
-     'test/test_blanket.html': ['html2js'],
-     'test/index.html': ['html2js']
+      'test/index.html': ['html2js']
     },
 
 
@@ -64,11 +62,15 @@ module.exports = function(config) {
 
     // start these browsers
     // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
-    browsers: ['Firefox, Chrome'],
+    browsers: ['PhantomJS'],
 
 
     // Continuous Integration mode
     // if true, Karma captures browsers, runs the tests and exits
-    singleRun: false
+    singleRun: false,
+
+    // Concurrency level
+    // how many browser should be started simultanous
+    concurrency: Infinity
   })
 }

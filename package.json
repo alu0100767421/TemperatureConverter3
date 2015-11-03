@@ -4,7 +4,7 @@
   "description": "conversor de temperatura",
   "main": "temperature.js",
   "scripts": {
-    "test": "karma -start --browsers Firefox --single-run"
+    "test": "karma start --browsers Firefox --single-run"
   },
   "repository": {
     "type": "git",

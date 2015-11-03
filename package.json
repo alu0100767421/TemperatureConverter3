@@ -5,7 +5,7 @@
   "main": "temperature.js",
   "scripts": {
     "karma": "./node_modules/karma/bin/karma start --single-run",
-    "testf": "mocha test",
+    "test": "karma start Firefox --single-run",
     "chai": "curl https://raw.githubusercontent.com/chaijs/chai/master/chai.js -o test/lib/chai.js"
   },
   "repository": {

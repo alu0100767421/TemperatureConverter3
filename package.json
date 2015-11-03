@@ -4,11 +4,14 @@
   "description": "conversor de temperatura",
   "main": "temperature.js",
   "scripts": {
-    "test": "./node_modules/karma/bin/karma start karma.conf.js --single-run"
+    "test": "node static-server"
+  },
+  "scripts": {
+    "karma": "./node_modules/karma/bin/karma start karma.conf.js --single-run"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JavierPestanoRon/TemperatureConverter3.git"
+    "url": "git+https://github.com/JavierPestanoRon/TemperatureConverter2.git"
   },
   "keywords": [
     "regexp"
@@ -16,9 +19,9 @@
   "author": "Javier Pestano Ron",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/JavierPestanoRon/TemperatureConverter3/issues"
+    "url": "https://github.com/JavierPestanoRon/TemperatureConverter2/issues"
   },
-  "homepage": "https://github.com/JavierPestanoRon/TemperatureConverter3#readme",
+  "homepage": "https://github.com/JavierPestanoRon/TemperatureConverter2#readme",
   "devDependencies": {
     "batch": "^0.5.3",
     "chai": "*",
